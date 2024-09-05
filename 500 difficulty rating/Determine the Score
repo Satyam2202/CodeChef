@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,n;
+	    cin>>x>>n;
+	    x=x/10;
+	    cout<<x*n<<endl;
+	    
+	}
+	return 0;
+
+}
