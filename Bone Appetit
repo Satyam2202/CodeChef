@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int n,m;
+	cin>>n>>m;
+	int x,y;
+	cin>>x>>y;
+	x=x*n;
+	y=y*m;
+	cout<<x+y;
+	
+
+}
