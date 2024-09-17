@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    if(x%100==0){
+	        int a,b,c,d;
+	        a=x-y;
+	        b=x/10;
+	        c=x+b;
+	        d=c-a;
+	        cout<<d<<endl;
+	        
+	        
+	    }
+	    else{
+	        return 0;
+	    }
+	    
+	}
+	
+	
+
+}
