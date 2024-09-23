@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b,c;
+	    cin>>a>>b>>c;
+	    float x,y;
+	    x=a+b;
+	    x=x/2;
+	    y=c;
+	    if(x>y ){
+	        cout<<"YES"<<endl;
+	    }
+	    else {
+	        cout<<"NO"<<endl;
+	        
+	    }
+	    
+	}
+
+}
