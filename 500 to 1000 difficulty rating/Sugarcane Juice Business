@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin>>n;
+	    int x;
+	    x=n*50;
+	    int a,b,c;
+	    a=x/5;
+	    b=x/5;
+	    c=x*3/10;
+	    int d;
+	    d=a+b+c;
+	    cout<<x-d<<endl;
+	    
+	    
+	}
+
+}
