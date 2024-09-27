@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,x;
+	    cin>>n>>x;
+	    int b=0;
+	    
+	    for(int i=1; i<=n; i++){
+	        int ai;
+	        cin>>ai;
+	        if (ai>=x) b++;
+	         
+	    
+	    } 
+	    cout<<b<<endl; 
+	}
+return 0;
+}
