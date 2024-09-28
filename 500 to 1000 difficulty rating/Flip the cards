@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int y,x;
+	    cin>>y>>x;
+	    if(x==y||x==0){
+	        cout<<"0"<<endl;
+	    }
+	    else{
+	        y=y-x;
+	        if(x>y){
+	            cout<<y<<endl;
+	        }
+	        else{
+	            cout<<x<<endl;
+	        }
+	    }
+	}
+
+}
