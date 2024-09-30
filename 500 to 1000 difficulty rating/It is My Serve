@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int p,q;
+	    cin>>p>>q;
+	    int a;
+	    a=p+q;
+	    a=a%4;
+	    if(a==0){
+	        cout<<"Alice"<<endl;
+	    }
+	    else if(a==1){
+	        cout<<"Alice"<<endl;
+	    }
+	    else if(a==2){
+	        cout<<"Bob"<<endl;
+	    }
+	    else {
+	        cout<<"Bob"<<endl;
+	    }
+	    
+	}
+
+}
