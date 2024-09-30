@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,k,m;
+	    cin>>n>>k>>m;
+	    int x;
+	    x=k*m;
+	    if(n%x==0){
+	        
+	            cout<<n/x<<endl;
+	        
+	    }
+	    else{
+	        x=n/x;
+	        x=x+1;
+	        cout<<x<<endl;
+	    }
+	}
+
+}
