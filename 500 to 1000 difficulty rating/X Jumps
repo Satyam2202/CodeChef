@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    int a,b;
+	    if(x==y){
+	        cout<<x/y<<endl;
+	    }
+	    else{
+	    if(x>y){
+	    if(x%y==0){
+	        cout<<x/y<<endl;
+	    }
+	    else{
+	      a=x/y;
+	      b=y*a;
+	      b=x-b;
+	      cout<<a+b<<endl;
+	    }
+	}
+	else{
+	    cout<<x<<endl;
+	}
+}
+}
+}
