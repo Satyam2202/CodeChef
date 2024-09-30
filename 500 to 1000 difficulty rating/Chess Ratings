@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    if(x<y){
+	        y=y-x;
+	        if(y>8){
+	            if(y%8==0){
+	                cout<<y/8<<endl;
+	            }
+	            else{
+	                y=y/8;
+	                cout<<y+1<<endl;
+	            }
+	        }
+	        else{
+	            cout<<"1"<<endl;
+	        }
+	    }
+	    else {
+	        cout<<x-y<<endl;
+	    }
+	}
+
+}
