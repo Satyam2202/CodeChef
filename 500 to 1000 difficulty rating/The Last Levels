@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y,z;
+	    cin>>x>>y>>z;
+	    int a,b;
+	    
+	    if(x<=3){
+	        cout<<x*y<<endl;
+	    }
+	    else{
+	        if(x%3==0){
+	            a=x/3;
+	            a=a-1;
+	            a=a*z;
+	            b=x*y;
+	            cout<<a+b<<endl;
+	        }
+	        else{
+	            a=x/3;
+	            a=a*z;
+	            b=x*y;
+	            cout<<a+b<<endl;
+	        }
+	    }
+	}
+
+}
