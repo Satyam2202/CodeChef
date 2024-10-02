@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,a,b;
+	    int x,y;
+	    
+	    cin>>n>>a>>b;
+	    if(n%2==0){
+	        n/=2;
+	        x=n*a+n*b;
+	        cout<<x<<endl;
+	    }
+	    else{
+	        n/=2;
+	        y=n+1;
+	        x=n*a+y*b;
+	        cout<<x<<endl;
+	    }
+	}
+
+}
