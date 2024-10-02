@@ -1,0 +1,32 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,n;
+	    cin>>x>>n;
+	    int a,b,c;
+	    a=n%100;
+	    c=n/100;
+	    
+	    if(c<x){
+	        cout<<0<<endl;
+	    }
+	    else{
+	    if(a==0){
+	        b=n/100;
+	        b-=x;
+	        cout<<b<<endl;
+	    }
+	    else{
+	        b=n/100;
+	        b=b+1;
+	        b=b-x;
+	        cout<<b<<endl;
+	    }
+	}
+}
+}
