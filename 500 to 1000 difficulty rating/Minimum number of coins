@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x;
+	    cin>>x;
+	    int a;
+	    a=x%10;
+	    if(a==0){
+	        cout<<x/10<<endl;
+	    }
+	    else if(a==5){
+	        x=x/10;
+	        cout<<x+1<<endl;
+	    }
+	    else{
+	        cout<<-1<<endl;
+	    }
+	}
+
+}
