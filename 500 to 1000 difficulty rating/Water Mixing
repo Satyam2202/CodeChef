@@ -1,0 +1,33 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b,x,y;
+	    cin>>a>>b>>x>>y;
+	    int p,q;
+	    
+	    if(a>=b){
+	        p=a-y;
+	        if(p<=b){
+	            cout<<"YES"<<endl;
+	        }
+	        else{
+	            cout<<"NO"<<endl;
+	        }
+	    }
+	    else{
+	        q=a+x;
+	        if(q>=b){
+	            cout<<"YES"<<endl;
+	        }
+	        else{
+	            cout<<"NO"<<endl;
+	        }
+	    }
+	}
+
+}
