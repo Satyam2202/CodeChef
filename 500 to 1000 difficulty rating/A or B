@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    int a,b,c,d,p,q,z;
+	    a=x+y;
+	    b=500-(x*2);
+	    c=1000-(a*4);
+	    d=c+b;
+	    p=1000-(y*4);
+	    q=500-(a*2);
+	    z=p+q;
+	    cout<<max(d,z)<<endl;
+	    
+	}
+
+}
