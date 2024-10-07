@@ -1,0 +1,60 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b,c,x,y,z;
+	    cin>>a>>b>>c>>x>>y>>z;
+	    int p,q;
+	    if(a<b){
+	        if(a<c){
+	            p=a;
+	        }
+	        else{
+	            p=c;
+	        }
+	    }
+	    else{
+	        if(b<c){
+	            p=b;
+	        }
+	        else{
+	            p=c;
+	        }
+	    }
+	    if(x<y){
+	        if(x<z){
+	            q=x;
+	        }
+	        else{
+	            q=z;
+	        }
+	    }
+	    else{
+	        if(y<z){
+	            q=y;
+	        }
+	        else{
+	            q=z;
+	        }
+	    }
+	    int s1,s2;
+	    s1=a+b+c-p;
+	    s2=x+y+z-q;
+	    if(s1>s2){
+	        cout<<"Alice"<<endl;
+	        
+	   }
+	    else if(s1<s2){
+	        cout<<"Bob"<<endl;
+	    }
+	    else{
+	        cout<<"Tie"<<endl;
+	    }
+	        	    
+	}
+
+}
